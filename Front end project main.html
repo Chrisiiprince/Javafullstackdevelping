@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bhai Restaurant</title>
+<style>
+body {
+  	background-image: url('Frontend.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100% 100%;
+}
+
+h1 {
+  	color: Black; 
+  	border-width: 25px 10px 4px 10px;
+  	background-color: white;
+  	opacity: 0.5;
+  	position: relative;
+  	animation-name: example;
+  	animation-duration: 5s; 
+
+}
+
+@keyframes example {
+	0%   {left:0px; top:200px;}
+	25%  {left:0px; top:0px;}
+}
+
+h2  {
+  	color: white; 
+  	font-family: "Brush Script MT", cursive;  
+	}
+
+h3  {
+  	color: black ; 
+  	font-family: "Lucida Console", "Courier New", monospace;
+  	font-size: 150%;
+  	opacity: 0.65; 
+ 	width: 270px;
+  	padding: 20px;
+  	border: 15px solid green;
+  	border-style: dashed;
+  	background-color:white;
+	}
+
+#div1 {
+  margin-top: -28.4%;
+  margin-bottom: 25%;
+  margin-right: 25%;
+  margin-left: 29%;
+  color: black ; 
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 150%;
+  opacity: 0.65; 
+  width: 270px;
+  padding: 20px;
+  border: 15px solid green;
+  border-style: dashed;
+  background-color:white;
+}
+
+#div2{
+  margin-top: -23.2%;
+  margin-bottom: 25%;
+  margin-right: 25%;
+  margin-left: 29%;
+}
+
+#div3 {
+  margin-top: -61.4%;
+  margin-bottom: 25%;
+  margin-right: 25%;
+  margin-left: 60%;
+  color: black ; 
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 150%;
+  opacity: 0.65; 
+  width: 270px;
+  padding: 20px;
+  border: 15px solid green;
+  border-style: dashed;
+  background-color:white;
+}
+
+#div4{
+  margin-top: -21.5%;
+  margin-bottom: 30%;
+  margin-right: 7%;
+  margin-left: 63%;
+}
+
+#div5{
+  margin-top: 0%;
+  margin-bottom: 25%;
+  margin-right: 25%;
+  margin-left: -63%;
+  color: black ; 
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 150%;
+  opacity: 0.65; 
+  width: 270px;
+  padding: 20px;
+  border: 15px solid green;
+  border-style: dashed;
+  background-color:white;
+
+}
+#div6{
+  margin-top: -25%;
+  margin-bottom: 25%;
+  margin-right: 25%;
+  margin-left: -63%;
+
+}
+
+#div7{
+  margin-top: -82.7%;
+  margin-bottom: 25%;
+  margin-right: 25%;
+  margin-left: 35%;
+  color: black ; 
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 150%;
+  opacity: 0.65; 
+  width: 270px;
+  padding: 20px;
+  border: 15px solid red;
+  border-style: dashed;
+  background-color:white;
+
+}
+
+#div8{
+  margin-top: -22%;
+  margin-bottom: 25%;
+  margin-right: -30%;
+  margin-left: 35%;
+  color: White ; 
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 150%;
+
+}
+
+
+</style>
+</head>
+<body>
+
+<h1><center>Welcome to Bhai's Restaurant</center></h1>
+<h2><center>"Dance of customized Tastes in Tongues"</center></h2>
+<h3>Breakfast Menu</h3>
+<form action="/action_page.php">
+  <input type="checkbox" id="Idly" name="Idly" value="Idly">
+  <label for="Idly" style="color:White; font-size: 30px;"> <b>Idly</label><br>
+  <input type="checkbox" id="Dosa" name="Dosa" value="Dosa">
+  <label for="Dosa" style="color:White; font-size: 30px;"> <b> Dosa</label><br>
+  <input type="checkbox" id="Poori" name="Poori" value="Poori">
+  <label for="Poori" style="color:White; font-size: 30px;"> <b> Poori</label><br>
+  <input type="checkbox" id="Pongal" name="Pongal" value="Pongal">
+  <label for="Pongal" style="color:White; font-size: 30px;"> <b> Pongal</label><br>
+  <input type="checkbox" id="Parota" name="Parota" value="Parota">
+  <label for="Parota" style="color:White; font-size: 30px;"> <b> Parota</label><br>
+  <textarea rows="4" cols="50" name="comment" form="usrform">
+Type your customized dish.,(eg)Highly roasted dosa with spreaded omelette on top. </textarea><br>
+  <input type="submit" value="Submit">
+</form>
+<div id ="div1">Lunch Menu</div>
+<div id ="div2">
+<form lunch="/lunch_page.php">
+  <input type="checkbox" id="Biriyani" name="Biriyan" value="Biriyani">
+  <label for="Biriyani" style="color:White; font-size: 30px;"> <b> Biriyani</label><br>
+  <input type="checkbox" id="Pulav" name="Pulav" value="Pulav">
+  <label for="Pulav" style="color:White; font-size: 30px;"> <b> Pulav</label><br>
+  <input type="checkbox" id="rice" name="rice" value="rice">
+  <label for="rice" style="color:White; font-size: 30px;"> <b> Plain rice</label><br>
+  <input type="checkbox" id="Friedrice" name="Friedrice" value="Friedrice">
+  <label for="Friedrice" style="color:White; font-size: 30px;"> <b> Fried Rice</label><br>
+  <input type="checkbox" id="varietyrice" name="varietyrice" value="varietyrice">
+  <label for="varietyrice" style="color:White; font-size: 30px;"> <b> Variety Rice</label><br>
+  <textarea rows="4" cols="50" name="comment" form="usrform">
+Type your customized dish.,(eg)Biriyani with 100gms of chicken or spicy friedrice without cabbage </textarea><br>
+  <input type="submit" value="Submit">
+</form>
+<div id ="div3">Evening menu</div>
+<div id ="div4">
+<input type="checkbox" id="Biriyani" name="Biriyan" value="Biriyani">
+  <label for="Biriyani" style="color:White; font-size: 30px;"> <b> Burgers</label><br>
+  <input type="checkbox" id="Pulav" name="Pulav" value="Pulav">
+  <label for="Pulav" style="color:White; font-size: 30px;"> <b> Sandwich</label><br>
+  <input type="checkbox" id="rice" name="rice" value="rice">
+  <label for="rice" style="color:White; font-size: 30px;"> <b> Chat Items</label><br>
+  <input type="checkbox" id="Friedrice" name="Friedrice" value="Friedrice">
+  <label for="Friedrice" style="color:White; font-size: 30px;"> <b> Noodles</label><br>
+  <input type="checkbox" id="varietyrice" name="varietyrice" value="varietyrice">
+  <label for="varietyrice" style="color:White; font-size: 30px;"> <b> Tea, Coffee</label><br>
+  <textarea rows="4" cols="50" name="comment" form="usrform">
+Type your customized dish.,(eg)Burgers with extra cheese or Veg burger without sauce </textarea><br>
+  <input type="submit" value="Submit">
+</form>
+</div>	
+<div id="div5">Side dishes</div>
+<div id ="div6">
+	<input type="checkbox" id="Chicken fry" name="Biriyan" value="Chicken fry">
+  <label for="Chicken fry" style="color:White; font-size: 30px;"> <b> Chicken fry</label><br>
+  <input type="checkbox" id="Mutton fry" name="Mutton fry" value="Mutton fry">
+  <label for="Mutton fry" style="color:White; font-size: 30px;"> <b> Mutton fry</label><br>
+  <input type="checkbox" id="Fish fry" name="Fish fry" value="Fish fry">
+  <label for="Fish fry" style="color:White; font-size: 30px;"> <b> Fish fry</label><br>
+  <input type="checkbox" id="Prawn" name="Prawn" value="Prawn">
+  <label for="Prawn" style="color:White; font-size: 30px;"> <b> Prawn</label><br>
+  <input type="checkbox" id="Panner masala" name="Panner masala" value="Panner masala">
+  <label for="Panner masala" style="color:White; font-size: 30px;"> <b> Panner masala</label><br>
+  <textarea rows="4" cols="50" name="comment" form="usrform">
+Type your customized dish.,(eg)Fish cooked in oven with light oil or Mutton fry with exceeded pepper </textarea><br>
+  <input type="submit" value="Submit">
+</form>
+</div>
+	<div id="div7">Payment</div>
+	<div id="div8">
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe"><br><br>
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"><br><br>
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September"><br><br>
+
+            <div class="row">
+            <div class="col-50">
+              <label for="expyear">Exp Year</label>
+              <input type="text" id="expyear" name="expyear" placeholder="2018"><br><br>
+            </div>
+              <div class="col-50">
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" name="cvv" placeholder="352"><br><br>
+              <input type="submit" value="Submit">
+              </div>
+            </div>
+          </div>
+	</div>
+</body>
+</html>

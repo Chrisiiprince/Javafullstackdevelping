@@ -1,0 +1,140 @@
+<style>
+body {
+  	background-image: url('Frontend.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100% 100%;
+}
+
+h1 {
+  	color: Black; 
+  	border-width: 25px 10px 4px 10px;
+  	background-color: white;
+  	opacity: 0.5;
+  	position: relative;
+  	animation-name: example;
+  	animation-duration: 5s; 
+
+}
+
+@keyframes example {
+	0%   {left:0px; top:200px;}
+	25%  {left:0px; top:0px;}
+}
+
+h2  {
+  	color: white; 
+  	font-family: "Brush Script MT", cursive;  
+	}
+
+h3  {
+  	color: black ; 
+  	font-family: "Lucida Console", "Courier New", monospace;
+  	font-size: 150%;
+  	opacity: 0.65; 
+ 	width: 270px;
+  	padding: 20px;
+  	border: 15px solid green;
+  	border-style: dashed;
+  	background-color:white;
+	}
+
+#div1 {
+  margin-top: -28.4%;
+  margin-bottom: 25%;
+  margin-right: 25%;
+  margin-left: 29%;
+  color: black ; 
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 150%;
+  opacity: 0.65; 
+  width: 270px;
+  padding: 20px;
+  border: 15px solid green;
+  border-style: dashed;
+  background-color:white;
+}
+
+#div2{
+  margin-top: -23.2%;
+  margin-bottom: 25%;
+  margin-right: 25%;
+  margin-left: 29%;
+}
+
+#div3 {
+  margin-top: -61.4%;
+  margin-bottom: 25%;
+  margin-right: 25%;
+  margin-left: 60%;
+  color: black ; 
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 150%;
+  opacity: 0.65; 
+  width: 270px;
+  padding: 20px;
+  border: 15px solid green;
+  border-style: dashed;
+  background-color:white;
+}
+
+#div4{
+  margin-top: -21.5%;
+  margin-bottom: 30%;
+  margin-right: 7%;
+  margin-left: 63%;
+}
+
+#div5{
+  margin-top: 0%;
+  margin-bottom: 25%;
+  margin-right: 25%;
+  margin-left: -63%;
+  color: black ; 
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 150%;
+  opacity: 0.65; 
+  width: 270px;
+  padding: 20px;
+  border: 15px solid green;
+  border-style: dashed;
+  background-color:white;
+
+}
+#div6{
+  margin-top: -25%;
+  margin-bottom: 25%;
+  margin-right: 25%;
+  margin-left: -63%;
+
+}
+
+#div7{
+  margin-top: -82.7%;
+  margin-bottom: 25%;
+  margin-right: 25%;
+  margin-left: 35%;
+  color: black ; 
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 150%;
+  opacity: 0.65; 
+  width: 270px;
+  padding: 20px;
+  border: 15px solid red;
+  border-style: dashed;
+  background-color:white;
+
+}
+
+#div8{
+  margin-top: -22%;
+  margin-bottom: 25%;
+  margin-right: -30%;
+  margin-left: 35%;
+  color: White ; 
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 150%;
+
+}
+</style>
+</body>
